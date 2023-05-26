@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    color: #777;
+    font-family: 'Arial';
+
+}
+
+html, body {
+ margin: 0;
+ padding: 0;
+ background-color: #e3f6d7;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a {
+  padding: .6;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3)
+}
+.main-nav li{
+    padding:5.5%
+}
+.nav a:hover {
+    background-color: red;
+}
+
+.main-header {
+    background-color: rgba(0,0,0, 0.7) ;
+ background-image: url("images/dmw-logo.jpeg");
+ background-blend-mode: multiply;
+ background-size: 78px;
+ padding-bottom: 0px;
+}
+
+.davido{
+    text-align: center;
+    margin:0;
+    font-size: 3em;
+    font-family: serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+.davido b {
+    color: white;
+}
+
+ .davido-large{
+    font-size:2.8em;
+ }
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0.6em
+}
+.section-head2{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color:#333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-davido-img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+    border-radius: 50%;
+}
+.davido-logo{
+    float: right;
+    height: 100px;
+    width:100px;
+    margin: 2px;
+    border-radius: 50%;
+}
+.division{
+    height: 400px;
+    width: 450px;
+    margin: 2px;
+}
+.last{
+    float: center;
+}
+
+.main-footer{
+    background-color: #56CCF2;
+    color: white;
+    padding: 0.5em 0;
+}
+
+.main-footer-container{
+    display:flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav{
+    padding: 0.5em 0;
+}
+
+.footer-nav img{
+    width:60px;
+    height:60px;
+}
