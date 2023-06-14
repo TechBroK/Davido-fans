@@ -201,7 +201,46 @@ html, body {
     border: none;
     font-weight: bold ;
 }
-
 .btn-primary:hover{
     background-color: #a3b8c3;
+}
+.sample-item{
+    margin: 30px;
+}
+.sample-item-title{
+    display: block;
+    width: 100%;
+    text-align:initial;
+    font-weight: bold;
+    font-size: 1.3em;
+    color:#333;
+    margin-bottom: 15px;
+}
+.sample-item-image{
+    height: 210px;
+}
+.sample-item-details{
+    display: center;
+    align-items: center;
+    padding:5px;
+}
+.sample-iten-price{
+    color:#333;
+}
+.sample-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font: size 1.2em;
+    color:#333
+}
+.cart-column{
+    border-bottom: 4px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
