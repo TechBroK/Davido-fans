@@ -137,7 +137,7 @@ html, body {
 }
 
 .btn-header{
- margin: 0.5em 15% 2em 15%;
+ margin: 0.5em 15% 2em 9%;
  color: white;
  border: 2px solid #2D9CD6;
  border-radius: 0;
@@ -164,4 +164,44 @@ html, body {
 .lining{
     display: inline;
     padding:0.5em
+}
+
+.track-row{
+    border-bottom: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.track-row:last-child{
+    border-bottom: none;
+}
+
+.track-item{
+    padding-right: 0.5em;
+    display: inline-block;
+}
+.track-date{
+    color: 555;
+    font-weight: bold;
+    width: 11%;
+}
+.track-name{
+    width: 42%;
+}
+.track-views{
+    width: 25%;
+}
+.track-btn{
+    max-width:19% ;
+}
+.btn-primary{
+    color: white;
+    background-color: #2D9CD6;
+    border-radius: .3em;
+    border: none;
+    font-weight: bold ;
+}
+
+.btn-primary:hover{
+    background-color: #a3b8c3;
 }
