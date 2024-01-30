@@ -4,28 +4,23 @@
     font-family: 'Arial';
 
 }
-
 html, body {
  margin: 0;
  padding: 0;
  background-color: #e3f6d7;
 }
-
 .nav ul {
     margin: 0;
 }
-
 .nav li{
     display: inline;
 }
-
 .nav a {
   padding: .6;
   color: white;
   display: inline-block;
   text-decoration: none;
 }
-
 .main-nav{
     text-align: center;
     font-size: 1.1em;
@@ -38,7 +33,6 @@ html, body {
 .nav a:hover {
     background-color: rgb(198, 190, 215);
 }
-
 .main-header {
     background-color: rgba(0,0,0, 0.7) ;
  background-image: url("images/dmw-logo.jpeg");
@@ -46,7 +40,6 @@ html, body {
  background-size: 78px;
  padding-bottom: 0px;
 }
-
 .davido{
     text-align: center;
     margin:0;
@@ -56,14 +49,12 @@ html, body {
     font-style: normal;
     color: white;
 }
-
 .davido b {
     color: white;
 }
-
- .davido-large{
+.davido-large{
     font-size:2.8em;
- }
+}
 .content-section{
     margin: 1em;
 }
@@ -79,7 +70,6 @@ html, body {
     text-align: center;
     font-size: 2.5em;
 }
-
 .about-davido-img{
     float: left;
     height: 250px;
@@ -102,13 +92,13 @@ html, body {
 .last{
     float: center;
 }
-
 .main-footer{
     background-color: #05242e;
     color: white;
     padding: 0.5em 0;
+    height:100px;
+    align-items: bottom center;
 }
-
 .main-footer-container{
     display:flex;
     align-items: center;
@@ -118,16 +108,13 @@ html, body {
     flex-grow: 1;
     text-align: end;
 }
-
 .footer-nav{
     padding: 0.5em 0;
 }
-
 .footer-nav img{
     width:60px;
     height:60px;
 }
-
 .btn{
     text-align:left;
     vertical-align: middle;
@@ -135,7 +122,6 @@ html, body {
     cursor: pointer;
     display: inline;
 }
-
 .btn-header{
  margin: 0.5em 15% 2em 9%;
  color: white;
@@ -235,7 +221,7 @@ html, body {
 
 .cart-header{
     font-weight: bold;
-    font: size 1.2em;
+    font-size: 1.2em;
     color:#333
 }
 .cart-column{
