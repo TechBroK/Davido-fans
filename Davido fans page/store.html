@@ -135,28 +135,36 @@
                 <span class="cart-price cart-header cart-column">PRICE</span>
                 <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
-            <div>
-                <img src="images/ice6.jpeg" width="80" height="100">
-                <span>30BG-logo-ice</span>
-                <span>$580.99</span>
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
+            <div class="class-item">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="images/ice6.jpeg" width="80" height="100">
+                        <span class="cart-item-title">30BG-logo-ice</span>
+                    </div>
+                    <span class="cart-price cart-column">$580.99</span>
+                    <div  class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" role="button">REMOVE</button>
+                    </div>
+                
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="images/custom1.jpeg" width="80" height="100">
+                        <span class="cart-item-title">30BG-custom cloth</span>
+                    </div>
+                    <span class="cart-price cart-column">$17.99</span>
+                    <div  class="cart-quantity cart-column">
+                        <input class="cart-quantity-input"  type="number" value="0">
+                        <button  class="btn btn-danger" role="button">REMOVE</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="images/custom1.jpeg" width="80" height="100">
-                <span>30BG-custom cloth</span>
-                <span>$17.99</span>
-                <input type="number" value="2">
-                <button role="button">REMOVE</button>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$3658.99</span>
             </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>$3658.99</span>
-            </div>
-            <div>
-                <button role="button">PURCHASE</button>
-            </div>
+            <button class="btn btn-primary btn-purchase"role="button">PURCHASE</button>
          </section>
         <footer class="main-footer">
             <div class="container main-footer-container">
